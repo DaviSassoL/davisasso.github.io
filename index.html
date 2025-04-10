@@ -4,76 +4,73 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Davi Sasso | Data-Driven Marketing Consultant</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #222; background: #f7f7f7; }
-    header { background: #1e1e1e; color: white; padding: 3rem 2rem; text-align: center; }
-    header h1 { margin: 0; font-size: 2.5rem; }
-    header p { font-size: 1.2rem; margin-top: 1rem; }
-    .section { padding: 3rem 2rem; max-width: 1000px; margin: auto; }
-    .section h2 { font-size: 2rem; margin-bottom: 1rem; }
-    .card { background: white; padding: 2rem; margin-bottom: 2rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
-    .cta { background: #007bff; color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 1rem; }
-    footer { text-align: center; padding: 2rem; background: #1e1e1e; color: white; }
-    a { color: #007bff; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <header>
-    <h1>Transform Data Into Growth</h1>
-    <p>Data-Driven Marketing & Analytics for Business Impact — by Davi Sasso</p>
-    <a href="#contact" class="cta">Let's work together</a>
-  </header>
+<body class="bg-white text-gray-800 font-sans">
 
-  <section class="section">
-    <h2>About Me</h2>
-    <div class="card">
-      <p>I'm a Data-Driven Marketing Specialist with hands-on experience in over 70 businesses across the US, Brazil, and Europe. With a solid background in paid media, data analytics, and strategy, I've managed 7-figure ad budgets and helped companies grow across multiple industries — including legal, e-commerce, B2B manufacturing, and startups.</p>
+  <!-- HERO SECTION -->
+  <section class="bg-gradient-to-br from-gray-900 to-gray-700 text-white py-20 px-4 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">Transform Data Into Growth</h1>
+    <p class="text-xl mb-6 max-w-2xl mx-auto">Data-Driven Marketing & Analytics for Business Impact — by Davi Sasso</p>
+    <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-full text-lg font-medium transition">Let's Work Together</a>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="py-20 px-6 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6 text-center">About Me</h2>
+    <div class="bg-white shadow-md rounded-xl p-6 text-lg leading-relaxed">
+      <p class="mb-4">I'm a Data-Driven Marketing Specialist with hands-on experience in over 70 businesses across the US, Brazil, and Europe. With a solid background in paid media, data analytics, and strategy, I've managed 7-figure ad budgets and helped companies grow across multiple industries — including legal, e-commerce, B2B manufacturing, and startups.</p>
       <p>Currently pursuing an Executive MBA in Data Engineering at Mackenzie University, I'm passionate about turning complex data into actionable marketing decisions.</p>
     </div>
   </section>
 
-  <section class="section">
-    <h2>Services</h2>
-    <div class="card">
-      <h3>📊 Data & Marketing Strategy</h3>
-      <p>End-to-end consulting combining business goals with data insights to drive smarter decisions.</p>
-    </div>
-    <div class="card">
-      <h3>📈 Paid Ads & Performance</h3>
-      <p>Google Ads, Meta Ads and funnel analysis — all driven by KPIs and ROI.</p>
-    </div>
-    <div class="card">
-      <h3>📉 Lead Scoring & Segmentation</h3>
-      <p>Machine learning models to prioritize leads and optimize your sales process.</p>
-    </div>
-    <div class="card">
-      <h3>📊 Dashboards & Data Visualization</h3>
-      <p>Custom reports and dashboards using Looker Studio, Tableau or Python for real-time insights.</p>
-    </div>
-  </section>
-
-  <section class="section">
-    <h2>Portfolio</h2>
-    <div class="card">
-      <h3>🧠 Lead Scoring for EdTech</h3>
-      <p>Developed a predictive model to identify high-potential leads for a fictional EdTech company. Result: estimated +166% in sales using data-driven prioritization.</p>
-      <a href="https://github.com/DaviSassoL/lead-scoring-x-education" target="_blank">View project on GitHub</a>
-    </div>
-    <p>More case studies coming soon...</p>
-  </section>
-
-  <section class="section" id="contact">
-    <h2>Contact</h2>
-    <div class="card">
-      <p>Let's connect and discuss how I can help your business grow using data and marketing strategy.</p>
-      <p>Email: <a href="mailto:contato@davissasso.com">contato@davissasso.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/davi-sasso-14a706232/" target="_blank">Davi Sasso</a></p>
+  <!-- SERVICES SECTION -->
+  <section class="bg-gray-100 py-20 px-6">
+    <h2 class="text-3xl font-bold mb-12 text-center">Services</h2>
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
+      <div class="bg-white p-6 shadow rounded-xl">
+        <h3 class="text-xl font-semibold mb-2">📊 Data & Marketing Strategy</h3>
+        <p>End-to-end consulting combining business goals with data insights to drive smarter decisions.</p>
+      </div>
+      <div class="bg-white p-6 shadow rounded-xl">
+        <h3 class="text-xl font-semibold mb-2">📈 Paid Ads & Performance</h3>
+        <p>Google Ads, Meta Ads and funnel analysis — all driven by KPIs and ROI.</p>
+      </div>
+      <div class="bg-white p-6 shadow rounded-xl">
+        <h3 class="text-xl font-semibold mb-2">📉 Lead Scoring & Segmentation</h3>
+        <p>Machine learning models to prioritize leads and optimize your sales process.</p>
+      </div>
+      <div class="bg-white p-6 shadow rounded-xl">
+        <h3 class="text-xl font-semibold mb-2">📊 Dashboards & Visualization</h3>
+        <p>Reports and dashboards using Looker Studio, Tableau or Python for real-time insights.</p>
+      </div>
     </div>
   </section>
 
-  <footer>
+  <!-- PORTFOLIO SECTION -->
+  <section class="py-20 px-6 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold mb-12 text-center">Portfolio</h2>
+    <div class="bg-white shadow-md rounded-xl p-6">
+      <h3 class="text-2xl font-semibold mb-2">🧠 Lead Scoring for EdTech</h3>
+      <p class="mb-4">Developed a predictive model to identify high-potential leads for a fictional EdTech company. Result: estimated +166% in sales using data-driven prioritization.</p>
+      <a href="https://github.com/DaviSassoL/lead-scoring-x-education" target="_blank" class="text-blue-600 hover:underline">View project on GitHub</a>
+    </div>
+    <p class="text-center mt-8 text-gray-600">More case studies coming soon...</p>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="bg-blue-600 text-white py-20 px-6">
+    <h2 class="text-3xl font-bold mb-8 text-center">Let's Connect</h2>
+    <div class="max-w-xl mx-auto text-center text-lg">
+      <p class="mb-4">Interested in working together or want to learn more about how I can help your business grow using marketing and data?</p>
+      <p>Email: <a href="mailto:contato@davissasso.com" class="underline">contato@davissasso.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/davi-sasso-14a706232/" target="_blank" class="underline">Davi Sasso</a></p>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-white text-center py-6">
     &copy; 2025 Davi Sasso — Data-Driven Marketing Consultant
   </footer>
+
 </body>
 </html>
